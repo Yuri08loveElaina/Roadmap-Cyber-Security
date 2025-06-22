@@ -6,7 +6,7 @@ Một tổ chức phát hiện tài khoản khả nghi đăng tải nhiều nộ
 
 Tên người dùng: linhcatlover2007
 
-Email rò rỉ: linh.cat.07@gmail.com
+Email rò rỉ: yavexid633@cristout.com
 
 Ảnh avatar:
 
@@ -37,7 +37,7 @@ Wayback Machine	Tìm thông tin đã xóa
 🧠 Câu hỏi yêu cầu trả lời
 Username linhcatlover2007 xuất hiện ở đâu trên mạng?
 
-Email linh.cat.07@gmail.com có bị rò rỉ trên site nào?
+Email yavexid633@cristout.com có bị rò rỉ trên site nào không?
 
 Ảnh avatar xuất hiện ở đâu khác không? (Reverse Image Search)
 
