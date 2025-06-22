@@ -97,7 +97,7 @@ Liên kết từ mạng A → B (GitHub → LinkedIn)
 - https://ipinfo.io
 
 ✅ Bài tập:
-- Truy tìm dịch vụ chạy trên IP 1.2.3.4
+- Truy tìm dịch vụ chạy trên IP 113.185.43.33
 
 - Dò camera public, hoặc router public
 
