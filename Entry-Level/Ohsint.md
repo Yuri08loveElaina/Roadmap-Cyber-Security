@@ -15,48 +15,52 @@
 - Chu trình OSINT: `Collection → Processing → Analysis → Report`
 
 ### ✅ Bài tập:
-```bash
-Google: "Tên bạn" site:facebook.com
-Google: "email@gmail.com" site:github.com
-🔹 PHẦN 2 – CÁC LOẠI DỮ LIỆU PHỔ BIẾN
-Dữ liệu	Ví dụ	Kỹ thuật tìm kiếm
-Họ tên	Nguyễn Văn A	Google, Facebook, LinkedIn
-Email	a@gmail.com	Hunter.io, EmailRep.io
-Username	admin123	NameCheck, Sherlock
-Domain	example.com	whois, crt.sh, DNSDumpster
-IP	1.2.3.4	ipinfo.io, Shodan
-Ảnh	ảnh đại diện	Google Reverse Image, ExifTool
+- Google: "Tên bạn" site:facebook.com
+- Google: "email@gmail.com" site:github.com
 
-🔹 PHẦN 3 – GOOGLE DORKS CƠ BẢN
+## 🔹 PHẦN 2 – CÁC LOẠI DỮ LIỆU PHỔ BIẾN
+
+Dữ liệu	             Ví dụ.         	Kỹ thuật tìm kiếm
+
+Họ tên	         Nguyễn Văn A	     Google, Facebook, LinkedIn
+
+Email.           	a@gmail.com.     	Hunter.io, EmailRep.io
+
+Username	         admin123	        NameCheck, Sherlock
+
+Domain         	example.com	       Whois, crt.sh, DNSDumpster
+
+IP	         1.2.3.4	             ipinfo.io, Shodan
+
+Ảnh	        ảnh đại diện           Google Reverse Image, ExifTool
+
+## 🔹 PHẦN 3 – GOOGLE DORKS CƠ BẢN
 🧠 Dork mẫu:
-bash
-Luôn hiển thị chi tiết
 
-Sao chép
 site:facebook.com "Nguyễn Văn Tuan"
 filetype:pdf "password" site:gov.vn
 intitle:"index of" "backup.zip"
 ✅ Bài tập:
-Tìm bài viết bạn đã từng post nhưng đã xóa khỏi FB (dùng cache)
+- Tìm bài viết bạn đã từng post nhưng đã xóa khỏi FB (dùng cache)
 
-Tìm file rò rỉ của trường bạn học (PDF, doc)
+- Tìm file rò rỉ của trường bạn học (PDF, doc)
 
-Tìm blog/website chứa password công khai (filetype:env)
+- Tìm blog/website chứa password công khai (filetype:env)
 
-🔹 PHẦN 4 – DÒ TÊN NGƯỜI DÙNG (USERNAME OSINT)
+## 🔹 PHẦN 4 – DÒ TÊN NGƯỜI DÙNG (USERNAME OSINT)
 🧰 Công cụ:
-https://namecheckup.com
+- https://namecheckup.com
 
-https://whatsmyname.app
+- https://whatsmyname.app
 
-Sherlock (tool tìm username)
+- Sherlock (tool tìm username)
 
 ✅ Bài tập:
-Dò username yuri08 trên toàn bộ social media
+- Dò username yuri08 trên toàn bộ social media
 
-Phân tích hành vi dựa trên thông tin public:
+-Phân tích hành vi dựa trên thông tin public:
 
-Avatar
+ Avatar
 
 Ngày đăng ký
 
@@ -64,60 +68,58 @@ Bio, location
 
 Liên kết từ mạng A → B (GitHub → LinkedIn)
 
-🔹 PHẦN 5 – DÒ DOMAIN + EMAIL
+## 🔹 PHẦN 5 – DÒ DOMAIN + EMAIL
 🧰 Tool:
-https://whois.domaintools.com
+- https://whois.domaintools.com
 
-https://crt.sh
+- https://crt.sh
 
-https://hunter.io
+- https://hunter.io
 
-https://emailrep.io
+- https://emailrep.io
 
 ✅ Bài tập:
-Tìm chủ sở hữu của một website
+- Tìm chủ sở hữu của một website
 
-Xác định địa chỉ email liên kết với website
+- Xác định địa chỉ email liên kết với website
 
-Check trust level email lạ qua emailrep.io
+- Check trust level email lạ qua emailrep.io
 
-🔹 PHẦN 6 – ĐỊA CHỈ IP & HẠ TẦNG
+## 🔹 PHẦN 6 – ĐỊA CHỈ IP & HẠ TẦNG
 🧰 Tool:
-https://shodan.io
+- https://shodan.io
 
-https://censys.io
+- https://censys.io
 
-https://ipinfo.io
+- https://ipinfo.io
 
 ✅ Bài tập:
-Truy tìm dịch vụ chạy trên IP 1.2.3.4
+- Truy tìm dịch vụ chạy trên IP 1.2.3.4
 
-Dò camera public, hoặc router public
+- Dò camera public, hoặc router public
 
-Check VPS của công ty nào → tìm khách hàng khác
+- Check VPS của công ty nào → tìm khách hàng khác
 
-🔹 PHẦN 7 – PHÂN TÍCH ẢNH (Image & Metadata OSINT)
+## 🔹 PHẦN 7 – PHÂN TÍCH ẢNH (Image & Metadata OSINT)
 🧰 Tool:
-https://fotoforensics.com
+- https://fotoforensics.com
 
-ExifTool (CLI)
+- ExifTool (CLI)
 
-Google Reverse Image
+- Google Reverse Image
 
-https://tineye.com
+- https://tineye.com
 
 ✅ Bài tập:
-Tìm ảnh gốc của một avatar Telegram
+- Tìm ảnh gốc của một avatar Telegram
 
-Xem Exif ảnh chụp thật để biết GPS, camera
+- Xem Exif ảnh chụp thật để biết GPS, camera
 
-bash
-Luôn hiển thị chi tiết
-
-Sao chép
-exiftool image.jpg
-🔹 PHẦN 8 – LAB THỰC HÀNH OSINT ENTRY
+- exiftool image.jpg
+- 
+## 🔹 PHẦN 8 – LAB THỰC HÀNH OSINT ENTRY
 🧪 Room & CTF gợi ý:
+
 https://tryhackme.com/room/osintbasics
 
 https://dfirdiva.com/ctf-osint/
