@@ -9,7 +9,7 @@
 ## 🔹 PHẦN 1 – GIỚI THIỆU OSINT
 
 ### 📘 Khái niệm:
-- **OSINT (Open Source Intelligence)**: Trí tình từ nguồn công khai
+- **OSINT (Open Source Intelligence)**: Truy tìm từ nguồn công khai
 - Mục đích: thu thập thông tin từ internet công khai không cần khai thác
 - OSINT khác với hacking: không cần truy cập trái phép
 - Chu trình OSINT: `Collection → Processing → Analysis → Report`
