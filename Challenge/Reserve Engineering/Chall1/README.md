@@ -1,4 +1,4 @@
-Hướng dẫn làm lab với file này(đó hãy phiên dịch code)
+Hướng dẫn làm lab với file này(trước đó hãy phiên dịch code)
 Chạy ./password_check nhập password thử
 
 Dùng gdb debug hàm check_password
