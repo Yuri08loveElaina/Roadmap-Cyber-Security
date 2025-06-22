@@ -38,8 +38,11 @@ IP	         1.2.3.4	             ipinfo.io, Shodan
 🧠 Dork mẫu:
 
 site:facebook.com "Nguyễn Văn Tuan"
+
 filetype:pdf "password" site:gov.vn
+
 intitle:"index of" "backup.zip"
+
 ✅ Bài tập:
 - Tìm bài viết bạn đã từng post nhưng đã xóa khỏi FB (dùng cache)
 
